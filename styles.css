@@ -1,0 +1,57 @@
+
+:root {
+    --colorFondo: #1308ad77;
+    --colorBotones:rgba(240, 248, 255, 0.432);
+    --colorLetras: black;
+}
+h1{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace 
+  
+}
+
+#div{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: var(--colorFondo);
+    width: 420px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+#input{
+    background-color: var(--colorFondo);
+    width: 322px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#div input[type=button], input[type=reset]{
+    background-color: var(--colorBotones);
+    width: 75px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--colorLetras);
+    padding: 10px 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.fila{
+    /* width: 35px; */
+    display: flex;
+    /* flex-direction: column; */
+    background-color:transparent;
+    /* border-color: rgb(48, 122, 187); */
+    border: 5px;
+}
