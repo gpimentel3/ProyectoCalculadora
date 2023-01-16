@@ -1,0 +1,8 @@
+ingresas numeros y realizas operaciones
+imprime un resultado
+
+resultado
+input(numero 1) input(operador) input(numero 2)
+
+
+var resultado = 5 + 2 - 5 * 3
